@@ -17,7 +17,8 @@ you can use this project as your base project, or wget/curl the scripts in your 
 ### Setup
 - add your PLUGINSLUG, MAINFILE to .travis.yml or set them in travis Settings > Environment Variables
 - set your SVNUSER, SVNPASS in travis Settings > Environment Variables, remember to *not* turn on Display value in build log
-- *never write your username and passwords in a public repository!!*
+- or use [Encrypted Variables](https://docs.travis-ci.com/user/environment-variables#Encrypted-Variables) feature in travis
+- *never write your username and passwords in plain text in a public repository!!*
 
 ### Release
 - tag your github release to match your version number
